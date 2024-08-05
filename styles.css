@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/360_F_705932666_hpK69u2FcoLsjrwjv6RkqD68XizRPC3L.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: #050506;
+    padding: 5px;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 300px;
+    text-align: center;
+    color: white;
+}
+footer {
+    background-color: #0d0d0d;
+    color: white;
+    padding: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box; /* Ensures padding is included in the height */
+}
+
+
+button {
+    padding: 0.5em;
+    font-size: 1em;
+    background: rgb(241, 199, 12);
+    color:white;
+    border: 0;
+    border-radius: 10%;
+}
+
+
+.nav-container{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.nav-container a {
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 10px; /* Adds space between links */
+    text-decoration: none; /* Removes the underline from links */
+  }
+a:hover{
+    color: rgb(241, 199, 12);
+}
+h1{
+    color: rgb(241, 199, 12);
+    font-size: 50px;
+    text-align: center;
+}
+.date-time {
+    position: absolute;
+    text-align: right;
+    top: 20px;
+    right: 40px; /* Space from the right */
+    
+   
+}
+.social-icon {
+    color: white; /* Icon color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 20px; /* Space between icons */
+    font-size: 20px; 
+}
+
+
